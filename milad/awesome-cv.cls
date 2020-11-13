@@ -737,8 +737,9 @@
 }
 
 
-\newcommand{\cvtag}[1]{%
-  \tikz[baseline]\node[anchor=base,draw=body!30,rounded corners,inner xsep=1ex,inner ysep =0.75ex,text height=1.5ex,text depth=.25ex,fill=neutral]{\textcolor{white}{\textbf{#1}}};
+\newcommand{\cvtag}[1]{
+  \tikz[baseline]
+  \node[anchor=base,draw=neutral!30,rounded corners,inner xsep=1ex,inner ysep =0.75ex,text height=1.5ex,text depth=.25ex,fill=neutral]{\textcolor{white}{\textbf{#1}}};
 }
 
 \newcommand{\skillbar}[1]{
